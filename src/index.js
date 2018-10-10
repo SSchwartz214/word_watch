@@ -24,6 +24,7 @@ const addNewWord = () => {
     })
   })
   getTopWord();
+  $('#wordField').val('')
 }
 
 getTopWord();
